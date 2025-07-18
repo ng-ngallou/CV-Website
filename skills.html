@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Skills</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -89,6 +90,18 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-sm-6 col-md-4 mb-4">
+                        <div class="skill-item mx-auto animated" data-skill="C++" data-percent="10">
+                            <svg class="skill-circle">
+                                <circle class="bg" cx="70" cy="70" r="70"></circle>
+                                <circle class="progress" cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="skill-text text-muted">
+                                <div class="skill-percent">0%</div>
+                                <div class="skill-name ">C++</div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -136,22 +149,49 @@
             <div class="col-sm-12 offset-sm-1">
                 <h2>Soft Skills</h2>
 
-                <div class="skills-container">
-                    <h4 class="text-left mb-3">Analytical Skills</h4>
-                    <ul class="text-muted">
-                        <li>Research & Analysis</li>
-                        <li>Problem-solving / Critical Thinking</li>
-                        <li>Topic Presentation</li>
-                    </ul>
-                </div>
+                <div class="row mt-4">
+                    <!-- Analytical Skills Card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow border-0" style="transform: perspective(1000px) rotateY(-1deg); transition: transform 0.3s;">
+                            <div class="card-body">
+                                <h4 class="card-title">Analytical Skills</h4>
+                                <ul class="text-muted">
+                                    <li>Familiarization with new topics</li>
+                                    <li>Research & Analysis</li>
+                                    <li>Finding creative solutions</li>
+                                    <li>Curiosity & Continuous Learning</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="skills-container">
-                    <h4 class="text-left mb-3">Documentation</h4>
-                    <ul class="text-muted">
-                        <li>Technical Documentation: LaTeX</li>
-                        <li>MS Office: Word, Excel, PowerPoint</li>
-                    </ul>
-                </div>
+                    <!-- Social Skills Card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow border-0" style="transform: perspective(1000px) rotateY(0deg); transition: transform 0.3s;">
+                            <div class="card-body">
+                                <h4 class="card-title">Social Skills</h4>
+                                <ul class="text-muted">
+                                    <li>Topic Presentation</li>
+                                    <li>Working alone & in a team</li>
+                                    <li>Time Management & Prioritization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Documentation Card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow border-0" style="transform: perspective(1000px) rotateY(1deg); transition: transform 0.3s;">
+                            <div class="card-body">
+                                <h4 class="card-title">Documentation</h4>
+                                <ul class="text-muted">
+                                    <li>Technical Documentation: LaTeX</li>
+                                    <li>MS Office: Word, Excel, PowerPoint</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end row -->
 
                     <div class="skills-container">
                         <h4 class="text-left mb-3">Languages</h4>
@@ -224,7 +264,7 @@
 
     <footer style="margin-left: 10px; ">2025 © Niki Gallou All Rights Reserved</footer>
     <script src="javascript/skills_javascript.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

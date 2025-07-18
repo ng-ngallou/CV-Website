@@ -78,7 +78,7 @@
                         of the entire RF system, especially the Low Level RF (LLRF) control systems. Participated in
                         commissioning in the underground facilities and on call duty for the LLRF of the SPS and LHC.
                         I was part of the team that significantly improved and stabilized the LHC blow-up process,
-                        and the main author on the paper, which was presented in IPAC'25.
+                        and the main author on the paper, which I presented in IPAC'25.
                     </p>
                     <details>
                       <summary>Tasks/Projects</summary>
@@ -100,8 +100,6 @@
                             "Bunch length regulation in the LHC during controlled emittance blow-up"</a>, presentation
                             in IPAC'25 and various other CERN meetings.
                         </li>
-
-
                       </ul>
                     </details>
                   </div>
@@ -236,9 +234,20 @@
                             Synchrotron (SPS) at CERN”.
                             <br>
                             Using the tune software I built previously as an intern, I created a PyQt
-                            application, called "Tune measurement refined", to be used in the Cern Control
-                            Center for SPS operation.
+                            application, called "Tune measurement refined", to be used in the CERN Control
+                            Center (CCC) for SPS operation.
                         </p>
+                        <details>
+                          <summary>Tasks</summary>
+                          <ul >
+                            <li>Development of a GUI with PyQt5 using the previously developed software, meant to be used
+                                for SPS commissioning (betatron tune setup and chromaticity measurements).</li>
+                              <li>Deployment of the app called "Tune measurement refined" in CCM and testing on the accelerator (SPS)
+                                using dedicated Machine Development beams.</li>
+                            <li>Connection to LSA (LHC Software Architecture) to calculate and propagate changes to the magnets.</li>
+                            <li>Presentation and documentation (thesis) of the new tool.</li>
+                          </ul>
+                        </details>
                       </div>
 				</li>
                  <li>
@@ -263,6 +272,17 @@
                             Synchrotron (SPS) at CERN”.<br>
                             I built a new betatron tune analysis python software using ML for improved diagnostics on the SPS.
                         </p>
+                        <details>
+                          <summary>Tasks</summary>
+                          <ul >
+                            <li>Development of a new software that analyzes the base-band-tune (BBQ) pick-up data and
+                                provides a more accurate betatron tune measurement.</li>
+                            <li>The algorithm uses a special FFT implementation (Jacobsen algorithm) and DBSCAN algorithm of
+                                Scikit-Learn, to cluster and select the betatron tune line along the selected SPS cycle.
+                            </li>
+                              <li>Denoising on the measurement.</li>
+                          </ul>
+                        </details>
                       </div>
 				</li>
                             <li>
@@ -281,12 +301,19 @@
                             </div>
                         </div>
                         <p class="text-muted">
-                            Project: “Effective Field Theory interpretation of the Drell-Yan (DY) proccess”,
+                            Project: “Effective Field Theory (EFT) interpretation of the Drell-Yan (DY) proccess”,
                             ATLAS Collaboration (CERN experiment), see
                             <a href="pdfs/EFT%20interpretation%20of%20the%20Drell-Yan%20process.pdf" target="_blank">presentation</a>.<br>
                             Particle physics simulations and analysis applying EFT, specific to
                             the ATLAS detector.
                         </p>
+                        <details>
+                          <summary>Tasks</summary>
+                          <ul >
+                            <li>EFT Monte Carlo simulations using MadGraph, Pythia, and the ATHENA environment (to simulate ATLAS conditions).</li>
+                            <li>Data analysis using ROOT and C++.</li>
+                          </ul>
+                        </details>
                       </div>
 				</li>
 			</ul>
