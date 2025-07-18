@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experience</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <!-- Logo + Name -->
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img id="mein_logo" src="images/logo.png" alt="Logo" width="40" height="40" class="me-2">
+        <span>Niki Gallou</span>
+      </a>
+
+      <!-- Toggle button for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible navigation links -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <div class="fix-photo-wrapper col-sm-2 d-none d-md-block">
+    <div class="photo-wrapper">
+        <div class="deco-circle deco1"></div>
+        <div class="deco-circle deco2"></div>
+        <img id="cv_photo" src="images/main_photos/cv_photo_niki.jpeg" alt="Photo of Niki Gallou">
+    </div>
+  </div>
+
+  <div class="container mt-5 mb-1">
+	<div class="row">
+		<div class="col-sm-12 offset-sm-1">
+			<h2>Work Experience</h2>
+			<ul class="timeline">
+                <li>
+                <div class="timeline-left">
+                  Dec 2023 - today<br>
+                    <br>
+                    <img src="images/cern_logo.png" alt="CERN Logo" class="company-logo">
+                </div>
+
+                <div class="timeline-center"></div>
+
+                <div class="timeline-right">
+					<h4>Computing Engineer</h4>
+					<div class="d-flex justify-content-between align-items-center mb-2">
+                        <div>
+                            <i class="fas fa-map-marker-alt location-symbol"></i>
+                            <span class="location-text">CERN, Geneva, Switzerland</span>
+                        </div>
+                    </div>
+					<p class="text-muted">
+                        Contributed to a variety of projects, including improved accelerator performance,
+                        simulation code development (BLonD), internal tools migration (Nicejapc). The job requires well-rounded knowledge
+                        of the entire RF system, especially the Low Level RF (LLRF) control systems. Participated in
+                        commissioning in the underground facilities and on call duty for the LLRF of the SPS and LHC.
+                        I was part of the team that significantly improved and stabilized the LHC blow-up process,
+                        and the main author on the paper, which was presented in IPAC'25.
+                    </p>
+                    <details>
+                      <summary>Tasks/Projects</summary>
+                      <ul >
+                        <li>Active participation in the LHC and SPS LLRF commissioning after the annual Year-End
+                            Technical Stop (YETS) in the underground facilities (Faraday cage) and remotely (control room).</li>
+                        <li>Maintenance and further development of the LLRF Python packages, containing the commissioning
+                            scripts for SPS, LHC, and the Crab Cavities, as well as the tool packages LLRF and NiceJapc.</li>
+                        <li>Migration of NiceJapc backend from PyJapc to PyDA.</li>
+                        <li>Participation in the on-call duty (Piqeut shadowing) for the LLRF of LINAC3, LINAC4, SPS, LHC.
+                            Experience in interventions.</li>
+                        <li>Main researcher on the LHC blow-up issue, which provided significantly improved results.
+                            Particle beam simulations using BLonD code. Contribution to BLonD for more accurate implementation
+                            of phase noise injection in the LHC, implementation of unittest and active participation
+                            in the BLonD community meetings.
+                            Tested the results of my study on the accelerator (LHC), using dedicated Machine Development beams.
+                            Collaboration with LHC Operations group to guide the changes during operational time.
+                            Main author of the paper: <a href="https://meow.elettra.eu/81/pdf/WEPS018.pdf" target="_blank">
+                            "Bunch length regulation in the LHC during controlled emittance blow-up"</a>, presentation
+                            in IPAC'25 and various other CERN meetings.
+                        </li>
+
+
+                      </ul>
+                    </details>
+                  </div>
+				</li>
+			</ul>
+		</div>
+	</div>
+  </div>
+
+  <div class="container mt-5 mb-1">
+	<div class="row">
+		<div class="col-sm-11 offset-sm-1">
+			<h2>Professional Training & Conferences</h2>
+			<ul class="timeline">
+                <li>
+                <div class="timeline-left">
+                 1-6 June 2025<br>
+                    <br>
+                    <img src="images/ipac_logo.jpg" alt="IPAC25 Logo" class="company-logo" style="width: 40%">
+                </div>
+
+                <div class="timeline-center"></div>
+
+                <div class="timeline-right">
+					<h4>16th International Particle Accelerator Conference</h4>
+					<div class="d-flex justify-content-between align-items-center mb-2">
+                        <div>
+                            <i class="fas fa-map-marker-alt location-symbol"></i>
+                            <span class="location-text">IPAC'25, Taipei, Taiwan</span>
+                        </div>
+                    </div>
+					<p class="text-muted">
+                        Presented a <a href="pdfs/IPAC25_BUP_poster_print.pdf" target="_blank">poster</a> as the main author of the paper: "Bunch length regulation in the LHC during
+                        controlled emittance blow-up", read <a href="https://meow.elettra.eu/81/pdf/WEPS018.pdf" target="_blank">here</a>.
+                    </p>
+                  </div>
+				</li>
+                <li>
+                <div class="timeline-left">
+                 8-11 Apr 2025<br>
+                    <br>
+                    <img src="images/cern_logo.png" alt="CERN Logo" class="company-logo">
+                </div>
+
+                <div class="timeline-center"></div>
+
+                <div class="timeline-right">
+					<h4>5th ICFA Beam Dynamics Mini-Workshop on Machine Learning for Particle Accelerators</h4>
+					<div class="d-flex justify-content-between align-items-center mb-2">
+                        <div>
+                            <i class="fas fa-map-marker-alt location-symbol"></i>
+                            <span class="location-text">CERN, Geneva, Switzerland</span>
+                        </div>
+                    </div>
+					<p class="text-muted">
+                        4 days of talks on ML implementation in particle accelerators all over the world.
+                    </p>
+                  </div>
+				</li>
+                <li>
+                <div class="timeline-left">
+                 10-22 Nov 2024<br>
+                    <br>
+                    <img src="images/CASlogo.png" alt="CAS Logo" class="company-logo" style="width: 40%">
+                </div>
+
+                <div class="timeline-center"></div>
+
+                <div class="timeline-right">
+					<h4>CERN Accelerator School (CAS) – Advanced Accelerator Physics  </h4>
+					<div class="d-flex justify-content-between align-items-center mb-2">
+                        <div>
+                            <i class="fas fa-map-marker-alt location-symbol"></i>
+                            <span class="location-text">Spa, Belgium</span>
+                        </div>
+                    </div>
+					<p class="text-muted">
+                        Two weeks of lectures on particle accelerators (advanced topics) and hands-on laboratories on RF specific topics
+                        (e.g. VNA diagnostics, simple feedbacks, finding the resonant frequency).
+                    </p>
+                  </div>
+				</li>
+                <li>
+                <div class="timeline-left">
+                 11-15 March 2024<br>
+                    <br>
+                    <img src="images/CASlogo.png" alt="CAS Logo" class="company-logo" style="width: 40%">
+                </div>
+
+                <div class="timeline-center"></div>
+
+                <div class="timeline-right">
+					<h4>CERN Accelerator School (CAS) – Basics of Accelerator Physics and Technology</h4>
+					<div class="d-flex justify-content-between align-items-center mb-2">
+                        <div>
+                            <i class="fas fa-map-marker-alt location-symbol"></i>
+                            <span class="location-text">Ferney-Voltaire, France</span>
+                        </div>
+                    </div>
+					<p class="text-muted">
+                        Five days of lectures on particle accelerators (basic overview).
+                    </p>
+                  </div>
+				</li>
+			</ul>
+		</div>
+	</div>
+  </div>
+
+   <div class="container mt-5 mb-5">
+	<div class="row">
+		<div class="col-sm-11 offset-sm-1">
+			<h2>Internships</h2>
+			<ul class="timeline">
+                <li>
+                    <div class="timeline-left">
+                      March 2023 - Sept 2023<br>
+                        <br>
+                    <img src="images/cern_logo.png" alt="CERN Logo" class="company-logo">
+                    </div>
+                    <div class="timeline-center"></div>
+                    <div class="timeline-right">
+                        <h4>Technical Student</h4>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div>
+                                <i class="fas fa-map-marker-alt location-symbol"></i>
+                                <span class="location-text">CERN, Geneva, Switzerland</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                            Project: “Machine Learning for betatron tune diagnostics and control on the Super Proton
+                            Synchrotron (SPS) at CERN”.
+                            <br>
+                            Using the tune software I built previously as an intern, I created a PyQt
+                            application, called "Tune measurement refined", to be used in the Cern Control
+                            Center for SPS operation.
+                        </p>
+                      </div>
+				</li>
+                 <li>
+                    <div class="timeline-left">
+                      Oct 2022 - Feb 2023<br>
+                        <br>
+                    <img src="images/cern_logo.png" alt="CERN Logo" class="company-logo">
+                    </div>
+
+                    <div class="timeline-center"></div>
+
+                    <div class="timeline-right">
+                        <h4>Intern</h4>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div>
+                                <i class="fas fa-map-marker-alt location-symbol"></i>
+                                <span class="location-text">CERN, Geneva, Switzerland</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                            Project: “Machine Learning for betatron tune diagnostics and control on the Super Proton
+                            Synchrotron (SPS) at CERN”.<br>
+                            I built a new betatron tune analysis python software using ML for improved diagnostics on the SPS.
+                        </p>
+                      </div>
+				</li>
+                            <li>
+                    <div class="timeline-left">
+                      Dec 2021 - March 2022<br>
+                        <br>
+                    <img src="images/lapp_logo.png" alt="LAPP Logo" class="company-logo" style="width: 40%">
+                    </div>
+                    <div class="timeline-center"></div>
+                    <div class="timeline-right">
+                        <h4>Intern (voluntary)</h4>
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div>
+                                <i class="fas fa-map-marker-alt location-symbol"></i>
+                                <span class="location-text">LAPP, Annecy, France</span>
+                            </div>
+                        </div>
+                        <p class="text-muted">
+                            Project: “Effective Field Theory interpretation of the Drell-Yan (DY) proccess”,
+                            ATLAS Collaboration (CERN experiment), see
+                            <a href="pdfs/EFT%20interpretation%20of%20the%20Drell-Yan%20process.pdf" target="_blank">presentation</a>.<br>
+                            Particle physics simulations and analysis applying EFT, specific to
+                            the ATLAS detector.
+                        </p>
+                      </div>
+				</li>
+			</ul>
+		</div>
+	</div>
+  </div>
+
+<footer style="margin-left: 10px; ">2025 © Niki Gallou All Rights Reserved</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
