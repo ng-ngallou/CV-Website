@@ -181,6 +181,7 @@ footer {
   text-align: left;
   padding: 10px;
   font-size: 11pt;
+    padding-top: 20vh;
 }
 
 
@@ -357,6 +358,10 @@ ul.timeline > li {
 }
 
 .skill-percent {
+    font-size: 0.8rem;
+}
+
+.skill-text p {
     font-size: 0.8rem;
 }
 
