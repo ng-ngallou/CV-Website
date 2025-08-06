@@ -176,13 +176,11 @@ nav.menu a {
 }
 
 footer {
-  /*background: #333;*/
-  /*color: #fff;*/
   text-align: left;
   padding: 10px;
   font-size: 11pt;
-    padding-top: 30vh;
-    margin-top: auto;
+  padding-top: 20vh;
+  margin-top: auto;
 }
 
 
