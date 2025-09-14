@@ -1,4 +1,4 @@
-// Manually list the image filenames in the folder
+// List of images
 const imageList = [
     "cv_photo_niki.jpeg",
     "PXL_20250115_150645319.MP.jpg",
@@ -19,8 +19,4 @@ img.addEventListener("click", () => {
   // Flip to next image in list
   currentIndex = (currentIndex + 1) % imageList.length;
   img.src = imageFolder + imageList[currentIndex];
-
-  // Optional flip animation
-  img.classList.add("flipped");
-  setTimeout(() => img.classList.remove("flipped"), 300); // flip effect
 });

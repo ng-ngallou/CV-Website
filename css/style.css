@@ -13,39 +13,18 @@ html, body {
   flex-direction: column;
 }
 
-body {
-  padding-top: 130px; /* adjust to match header height */
-}
-
 img {
   border-radius: 50%;
     flex-shrink: 0;
 }
 
 body {
+  padding-top: 150px; /* adjust to match header height */
   margin: 0;
   font-family: Arial, sans-serif;
-  /*background-color: #f4f4f4;*/
-    font-size: 16pt;
-    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  font-size: 16pt;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
-
-/*.header {*/
-/*    position: fixed;*/
-/*    top: 0;                 !* ensure it's at the top *!*/
-/*    left: 0;                !* align with the left edge *!*/
-/*    right: 0;               !* span full width *!*/
-/*    width: 100%;*/
-/*    height: 130px;*/
-/*  display: flex;*/
-/*  justify-content: space-between; !* Align items to the right *!*/
-/*  align-items: center;*/
-/*  !*padding: 10px 20px;*!*/
-/*  background: #0F67B1;*/
-/*  color:  #f4f4f4;*/
-/*    z-index:999;*/
-/*    box-sizing: border-box;*/
-/*}*/
 
 .navbar,
 .navbar a,
@@ -91,7 +70,7 @@ nav.menu {
 
 nav.menu a {
   margin: 0 10px;
-  line-height: 80px; /* vertically centers links */
+  line-height: 80px;
   text-decoration: none;
   color: #f4f4f4;
 }
@@ -184,17 +163,12 @@ footer {
 }
 
 
-/*to be figured out in the future*/
 @media (max-width: 768px) {
   .header {
     height: auto;
     flex-direction: column;
     align-items: center;
     padding: 15px;
-  }
-
-  body {
-    padding-top: 150px; /* adjust if header height changes */
   }
 
   .intro-text {
@@ -300,7 +274,7 @@ ul.timeline > li {
 }
 
 .fix-photo-wrapper {
-    position: fixed;
+  position: fixed;
   top: 80px; /* estimate or match header height */
   left: 10px;
   z-index: 999;
@@ -308,7 +282,7 @@ ul.timeline > li {
 
 
 .fix-photo-wrapper .photo-wrapper {
-    width: 100%; /* or any smaller fixed size */
+    width: 100%;
     aspect-ratio: 1 / 1;
     margin-right: auto;
 }
