@@ -86,27 +86,40 @@
                     <details open>
                       <summary>Tasks/Projects</summary>
                       <ul >
-                        <li>Active participation in the LHC and SPS LLRF commissioning after the annual Year-End
-                            Technical Stop (YETS) in the underground facilities (Faraday cage) and remotely (control room).</li>
+                        <li>Active participation in the SPS and LHC particle accelerators Low Power-Level RF (LLRF)
+                            re-commissioning after the annual Year-End Technical Stop in the underground facilities
+                            (Faraday cage) and remotely (control room).
+                        </li>
                         <li>Maintenance and further development of the LLRF Python packages, containing the commissioning
-                            scripts for SPS (FPGA), LHC (VME), and the Crab Cavities (FPGA), as well as the tool packages
-                            LLRF and NiceJapc. The commissioning scripts include system response measurements, as well
-                            as calibrations (signal processing, time and frequency domain measurements, transfer functions).
-                            They interact directly with the hardware through CERN's interface (PyDA).</li>
-                        <li>Migration of NiceJapc backend from PyJapc to PyDA.</li>
-                        <li>Participation in the on-call duty (Piqeut shadowing) for the LLRF of LINAC3, LINAC4, SPS, LHC.
-                            Experience in interventions.</li>
-                        <li>Main researcher on the LHC blow-up issue, which provided significantly improved results.
-                            Particle beam simulations using <a href="https://github.com/blond-admin/BLonD" target="_blank">
-                            BLonD code</a>. Contribution to BLonD for more accurate implementation
-                            of phase noise injection in the LHC, implementation of unittest and active participation
-                            in the BLonD community meetings.
-                            After analysis of the simulation data, I found a stability region. I tested the results of
-                            my study on the accelerator (LHC), using dedicated Machine Development beams.
-                            Collaboration with LHC Operations group to guide the changes during operational time.
-                            Main author of the paper: <a href="https://meow.elettra.eu/81/pdf/WEPS018.pdf" target="_blank">
-                            "Bunch length regulation in the LHC during controlled emittance blow-up"</a>, presentation
-                            in IPAC'25 and various other CERN meetings.
+                            scripts for SPS and LHC, as well as the tool packages LLRF and NiceJapc. The commissioning
+                            scripts include system response measurements, as well as calibrations. They interact with the
+                            hardware through CERN’s python device interface.
+                        </li>
+                        <li>Development of the repository for the SPS Crab Cavities, which contains open and closed loop
+                            measurement of the system, in line with the other LLRF packages.
+                        </li>
+                        <li>Migration of NiceJapc backend from PyJapc to PyDA (CERN’s python device interfaces).
+                        </li>
+                        <li>Participation in the on-call duty (shadowing experts) for the LLRF of LINAC3, LINAC4, SPS,
+                            LHC particle accelerators. Experience in interventions.
+                        </li>
+                        <li>Downloading and processing data from NXCALS (CERN’s database) for model training and simulations.
+                        </li>
+                        <li>Main researcher on the LHC blow-up issue, which was stabilized, improving LHC operation
+                            significantly. The study included particle beam dynamics simulations using BLonD code, data
+                            analysis and testing of the results using dedicated beams on the accelerator (LHC). Authored
+                            paper: <a href="https://meow.elettra.eu/81/pdf/WEPS018.pdf" target="_blank">
+                            "Bunch length regulation in the LHC during controlled emittance blow-up"</a>, and presented
+                            poster in IPAC’25 (Taiwan).
+                        </li>
+                        <li>Contribution to Beam Longitudinal Dynamics (BLonD) simulation code for more accurate
+                            implementation of phase noise injection in the LHC. Co-authored paper: "Recent Developments
+                            of Blond for New Large Scale Accelerator Facilities", S. Lauber et al., which was presented in IPAC'26 (France).
+                        </li>
+                        <li>Developed and implemented an AutoEncoder for LINAC4 RF voltage breakdown diagnostics. It
+                            labels live pulses as "good" or "bad" and provides a score. It has been generalized to
+                            work on all 20 LN4 RF devices (some of which function at different set-points). At the
+                            moment it is being tested live on the accelerator.
                         </li>
                       </ul>
                     </details>
@@ -329,7 +342,7 @@
 	</div>
   </div>
 
-<footer style="margin-left: 10px; ">2025 © Niki Gallou All Rights Reserved</footer>
+<footer style="margin-left: 10px; ">2026 © Niki Gallou All Rights Reserved</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
