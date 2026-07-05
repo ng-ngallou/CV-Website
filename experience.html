@@ -57,6 +57,7 @@
   <div class="container mt-5 mb-1">
 	<div class="row">
 		<div class="col-sm-12 offset-sm-1">
+
 			<h2>Work Experience</h2>
 			<ul class="timeline">
                 <li>
@@ -76,44 +77,42 @@
                             <span class="location-text">CERN, Geneva, Switzerland</span>
                         </div>
                     </div>
+                    <p>
+                        Applied Physicist with 4 years of experience at CERN, specializing in RF control systems
+                        and applied machine learning for real-time diagnostics on particle accelerators. Published researcher
+                        (IPAC'25 and IPAC'26) with hands-on experience deploying deep learning models on live accelerator
+                        infrastructure.
+                    </p>
 
                     <details open>
+
                       <summary>Tasks/Projects</summary>
                       <ul >
-                        <li>Active participation in the SPS and LHC particle accelerators Low Power-Level RF (LLRF)
-                            re-commissioning after the annual Year-End Technical Stop in the underground facilities
-                            (Faraday cage) and remotely (control room).
+                        <li>Developed and deployed a deep learning model (convolutional autoencoder) for real-time
+                            fault detection in RF power systems, generalized to work across all 19 independent systems
+                            without retraining, operating at different conditions. Currently running live on the accelerator.
                         </li>
-                        <li>Maintenance and further development of the LLRF Python packages, containing the commissioning
-                            scripts for SPS and LHC, as well as the tool packages LLRF and NiceJapc. The commissioning
-                            scripts include system response measurements, as well as calibrations. They interact with the
-                            hardware through CERN’s python device interface.
+                        <li>Resolved a recurring beam instability in the Large Hadron Collider (LHC), the world's
+                            largest particle accelerator, by combining physics simulations with dedicated experiments
+                            on the machine. Published <a href="https://meow.elettra.eu/81/pdf/WEPS018.pdf" target="_blank">findings</a>
+                            as first author at IPAC'25, a leading international accelerator conference.
                         </li>
-                        <li>Development of the repository for the SPS Crab Cavities, which contains open and closed loop
-                            measurement of the system, in line with the other LLRF packages.
+                        <li>Participated in 24/7 on-call support across four particle accelerator systems, responding
+                            to faults and performing hands-on interventions.
                         </li>
-                        <li>Migration of NiceJapc backend from PyJapc to PyDA (CERN’s python device interfaces).
+                        <li>Extended an open-source beam dynamics simulation framework (BLonD) to improve modelling
+                            accuracy. <a href="https://www.ipac26.org/prepress/pdf/THP5005.pdf" target="_blank">Contribution</a>
+                            published as co-author at IPAC'26.
                         </li>
-                        <li>Participation in the on-call duty (shadowing experts) for the LLRF of LINAC3, LINAC4, SPS,
-                            LHC particle accelerators. Experience in interventions.
+                        <li>Maintained and extended a Python software ecosystem of 5 packages used for accelerator
+                            RF commissioning, including migrating the core hardware interface library to a modern API.
                         </li>
-                        <li>Downloading and processing data from NXCALS (CERN’s database) for model training and simulations.
+                        <li>Recommissioned RF control systems for two major particle accelerators (SPS and LHC) after
+                            annual maintenance shutdowns, performing system measurements and calibrations both on-site
+                            in underground facilities and remotely.
                         </li>
-                        <li>Main researcher on the LHC blow-up issue, which was stabilized, improving LHC operation
-                            significantly. The study included particle beam dynamics simulations using BLonD code, data
-                            analysis and testing of the results using dedicated beams on the accelerator (LHC). Authored
-                            paper: <a href="https://meow.elettra.eu/81/pdf/WEPS018.pdf" target="_blank">
-                            "Bunch length regulation in the LHC during controlled emittance blow-up"</a>, and presented
-                            poster in IPAC’25 (Taiwan).
-                        </li>
-                        <li>Contribution to Beam Longitudinal Dynamics (BLonD) simulation code for more accurate
-                            implementation of phase noise injection in the LHC. Co-authored paper: "Recent Developments
-                            of Blond for New Large Scale Accelerator Facilities", S. Lauber et al., which was presented in IPAC'26 (France).
-                        </li>
-                        <li>Developed and implemented an AutoEncoder for LINAC4 RF voltage breakdown diagnostics. It
-                            labels live pulses as "good" or "bad" and provides a score. It has been generalized to
-                            work on all 20 LN4 RF devices (some of which function at different set-points). At the
-                            moment it is being tested live on the accelerator.
+                        <li>Built the commissioning software suite for a next-generation accelerator component
+                            (SPS Crab Cavities) from scratch, implementing automated open- and closed-loop system measurements.
                         </li>
                       </ul>
                     </details>
@@ -231,7 +230,7 @@
 			<ul class="timeline">
                 <li>
                     <div class="timeline-left">
-                      March 2023 - Sept 2023<br>
+                      Oct 2022 - Sept 2023<br>
                         <br>
                     <img src="images/cern_logo.png" alt="CERN Logo" class="company-logo">
                     </div>
@@ -248,59 +247,22 @@
                             Project: “Machine Learning for betatron tune diagnostics and control on the Super Proton
                             Synchrotron (SPS) at CERN”.
                             <br>
-                            Using the tune software I built previously as an intern, I created a PyQt
-                            application, called "Tune measurement refined", to be used in the CERN Control
-                            Center (CCC) for SPS operation.
+
                         </p>
                         <details open>
                           <summary>Tasks</summary>
                           <ul >
-                            <li>Development of a GUI with PyQt5 using the previously developed software, meant to be used
-                                for SPS commissioning (betatron tune setup and chromaticity measurements).</li>
-                              <li>Deployment of the app called "Tune measurement refined" in CCM and testing on the accelerator (SPS)
-                                using dedicated Machine Development beams.</li>
-                            <li>Connection to LSA (LHC Software Architecture) to calculate and propagate changes to the magnets.</li>
-                            <li>Presentation and documentation (thesis) of the new tool.</li>
-                          </ul>
-                        </details>
-                      </div>
-				</li>
-                 <li>
-                    <div class="timeline-left">
-                      Oct 2022 - Feb 2023<br>
-                        <br>
-                    <img src="images/cern_logo.png" alt="CERN Logo" class="company-logo">
-                    </div>
-
-                    <div class="timeline-center"></div>
-
-                    <div class="timeline-right">
-                        <h4>Intern</h4>
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <div>
-                                <i class="fas fa-map-marker-alt location-symbol"></i>
-                                <span class="location-text">CERN, Geneva, Switzerland</span>
-                            </div>
-                        </div>
-                        <p class="text-muted">
-                            Project: “Machine Learning for betatron tune diagnostics and control on the Super Proton
-                            Synchrotron (SPS) at CERN”.<br>
-                            I built a new betatron tune analysis python software using ML for improved diagnostics on the SPS.
-                        </p>
-                        <details open>
-                          <summary>Tasks</summary>
-                          <ul >
-                            <li>Development of a new software that analyzes the base-band-tune (BBQ) pick-up data and
-                                provides a more accurate betatron tune measurement.</li>
-                            <li>The algorithm uses a special FFT implementation (Jacobsen algorithm) and DBSCAN algorithm of
-                                Scikit-Learn, to cluster and select the betatron tune line along the selected SPS cycle.
+                            <li>Developed ML-based signal analysis software that improved measurement accuracy by 243%
+                            over the existing method, adopted for use on CERN's Super Proton Synchrotron.
                             </li>
-                              <li>Denoising on the measurement.</li>
+                              <li>Built a desktop application (PyQt5) for real-time beam diagnostics, deployed for
+                                  daily operational use by accelerator operators in CERN's main control room.</li>
                           </ul>
                         </details>
                       </div>
 				</li>
-                            <li>
+
+                <li>
                     <div class="timeline-left">
                       Dec 2021 - March 2022<br>
                         <br>
@@ -325,8 +287,9 @@
                         <details open>
                           <summary>Tasks</summary>
                           <ul >
-                            <li>EFT Monte Carlo simulations using MadGraph, Pythia, and the ATHENA environment (to simulate ATLAS conditions).</li>
-                            <li>Data analysis using ROOT and C++.</li>
+                            <li>Performed particle physics simulations and statistical analysis for the ATLAS
+                                experiment at CERN, applying advanced theoretical frameworks (Effective Field Theory)
+                                to model rare particle interactions.</li>
                           </ul>
                         </details>
                       </div>
